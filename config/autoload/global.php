@@ -9,4 +9,11 @@ return [
             'MariaDB Database' => [],
         ],
     ],
+    'zf-mvc-auth' => [
+        'authentication' => [
+            'map' => [
+                'Status\\V1' => 'status',
+            ],
+        ],
+    ],
 ];
